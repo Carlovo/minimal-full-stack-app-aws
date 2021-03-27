@@ -45,7 +45,7 @@ Or, start building your own serverless full-stack apps from scratch.
 ## Deployment
 
 You need programmatic access to an AWS account and have Terraform on your machine to deploy this application.
-I wrote this app using Terraform v0.12.26 with provider.aws v2.65.0 and provider.archive v1.3.0, but later versions usually work in Terraform as well.
+The app can be deployed with Terraform v0.14.8 with provider.aws v2.65.0 and provider.archive v1.3.0, but later versions usually work in Terraform as well.
 Run the regular `terraform init` and `terraform apply` command and everything should deploy fine.
 Terraform will output the website and API endpoint of your app if deployment was successful.
 
@@ -57,6 +57,8 @@ If you don't know Terraform or how to use it, please see [their documentation](h
 
 This should always hold of course, but I want to name it here explicitly, because I took extra care for it.
 To more easily see what part of the code does what, you can go through the commit history and see what code blocks were added to facilitate which added functionality.
+I did do some upgrades and refactoring after the first time I completed the project though.
+I might redo this project some day to go to the latest version in a straight line.
 
 ### Terraform vs Cloud Formation
 
